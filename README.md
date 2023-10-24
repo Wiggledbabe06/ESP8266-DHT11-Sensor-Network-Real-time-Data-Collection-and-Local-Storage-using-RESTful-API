@@ -16,7 +16,17 @@ Hardware required : ESP8266 Micro-controller, DHT11 Temperature and Humidity Sen
 ## Project Description
 The ESP8266-DHT11 Sensor Network project aims to create a system for real-time collection of temperature and humidity data and local storage using a RESTful API. The proposed system will consist of multiple ESP8266 microcontrollers connected to DHT11 temperature and humidity sensors, which will collect data at regular intervals and transmit it to a central server.
 
+**Communication pathway indicating Data Flow**
+
+<img src ="https://github.com/Wiggledbabe06/ESP8266-DHT11-Sensor-Network-Real-time-Data-Collection-and-Local-Storage-using-RESTful-API/assets/98098708/f939902c-0cfb-439f-a728-c1fc641b8069" width="500" height = "300">
+
+
+
 RESTful API architecture will be used by the central server to receive data from the ESP8266s and store it in a local database in form of JSON file. The data will be organized using SQLite divided into various attributes and parameters such as sensor ID, Timestamp, Temperature data, Humidity, Location and Node Status allowing users to easily retrieve and analyze historical data
+
+**Data flow sequence of the project**
+
+<img src ="https://github.com/Wiggledbabe06/ESP8266-DHT11-Sensor-Network-Real-time-Data-Collection-and-Local-Storage-using-RESTful-API/assets/98098708/cacfc16b-5275-4024-a12a-9068a9469dc8" width="500" height = "300">
 
 ## Usage
 
@@ -33,7 +43,7 @@ RESTful API architecture will be used by the central server to receive data from
 
 
 **Connection Diagram for Edge Node**
-
+<img src ="https://github.com/Wiggledbabe06/ESP8266-DHT11-Sensor-Network-Real-time-Data-Collection-and-Local-Storage-using-RESTful-API/assets/98098708/781f3ec7-0d3d-4572-9e59-607f0dfeb85d" width="500" height = "300">
 
 **Pin connections of ESP8266-DHT11**
 
