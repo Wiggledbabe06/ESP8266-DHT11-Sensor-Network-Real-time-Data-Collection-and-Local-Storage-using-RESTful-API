@@ -43,6 +43,8 @@ RESTful API architecture will be used by the central server to receive data from
 
 
 **Connection Diagram for Edge Node**
+
+
 <img src ="https://github.com/Wiggledbabe06/ESP8266-DHT11-Sensor-Network-Real-time-Data-Collection-and-Local-Storage-using-RESTful-API/assets/98098708/781f3ec7-0d3d-4572-9e59-607f0dfeb85d" width="500" height = "300">
 
 **Pin connections of ESP8266-DHT11**
@@ -56,7 +58,10 @@ RESTful API architecture will be used by the central server to receive data from
 
 
 
-4. Run the Jupyter Notebook or Python script to explore the machine learning algorithms and their performance on the Iris dataset.
+4. Add the necessary libraries and upload code_for_ESP8266.ino to ESP8266 using Arduino IDE.
+   **Remember to edit the Wifi SSID to your local network authentication key**
+6. Add the following Table Definitions in SQLite.
+7. 
 
 ## Contributions
 
