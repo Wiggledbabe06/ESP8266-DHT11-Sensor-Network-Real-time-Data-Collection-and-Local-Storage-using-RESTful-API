@@ -88,17 +88,108 @@ RESTful API architecture will be used by the central server to receive data from
 
 </div>
 
+8. Open command prompt at the destination folder, access the activate file in bin folder and start the server by typing the following command.
+
+  <p align="center">
+    
+<img src ="https://github.com/Wiggledbabe06/ESP8266-DHT11-Sensor-Network-Real-time-Data-Collection-and-Local-Storage-using-RESTful-API/assets/98098708/4e93a0b2-133b-4c59-ab8d-2a2f137e6b9d" width="800" height = "300">
+
+</p>
+<div align="center">
+  
+**Fig. Initializing RESTful Architecture**
+
+</div>
+
+## Results
+1. Accessing the home page using IP address.
+
+<p align="center">
+    
+<img src ="https://github.com/Wiggledbabe06/ESP8266-DHT11-Sensor-Network-Real-time-Data-Collection-and-Local-Storage-using-RESTful-API/assets/98098708/958b6a1d-17ba-4fbe-a1d0-781c75d186ef" width="800" height = "300">
+
+</p>
+<div align="center">
+  
+**Fig. Home Page**
+
+</div>
+
+2. Monitoring Serial output of the ESP8266 on the Serial Monitor.
+
+<p align="center">
+    
+<img src ="https://github.com/Wiggledbabe06/ESP8266-DHT11-Sensor-Network-Real-time-Data-Collection-and-Local-Storage-using-RESTful-API/assets/98098708/fb881cef-af74-4ffb-9f15-fde2b57a7794" width="800" height = "300">
+
+</p>
+<div align="center">
+  
+**Fig. Serial Monitor Output**
+
+</div>
 
 
-8. Open command prompt with  
+3. Continous Data logging into SQLite with Accurate Time Stamp.
+
+<p align="center">
+    
+<img src ="https://github.com/Wiggledbabe06/ESP8266-DHT11-Sensor-Network-Real-time-Data-Collection-and-Local-Storage-using-RESTful-API/assets/98098708/bf04aab5-7fb7-4773-82e0-0cf1a8e9434c" width="800" height = "300">
+
+</p>
+<div align="center">
+  
+**Fig. Data logging preview**
+
+</div>
+
+
+
+
+4. Data can be filtered using Unique key (Serial no.)
+
+<p align="center">
+    
+<img src ="https://github.com/Wiggledbabe06/ESP8266-DHT11-Sensor-Network-Real-time-Data-Collection-and-Local-Storage-using-RESTful-API/assets/98098708/4e228fb9-ee38-4dbe-9f1a-34ea2ad85f4c" width="800" height = "300">
+
+</p>
+<div align="center">
+  
+**Fig. Filtering Data Using Unique Key**
+
+</div>
+
+
+
+
+5. Accessing data using IP address on the Web browser.
+<p align="center">
+    
+<img src ="https://github.com/Wiggledbabe06/ESP8266-DHT11-Sensor-Network-Real-time-Data-Collection-and-Local-Storage-using-RESTful-API/assets/98098708/7564b71e-53be-47c6-b142-11f33a888710" width="800" height = "1200">
+
+</p>
+<div align="center">
+  
+**Fig. Accessing Data from Web browser**
+
+</div>
+
+
+
+
+
+## Conclusion
+The ESP8266-DHT11 Sensor Network project has a wide range of applications, including environmental monitoring, smart home automation, and industrial process control. It showcases the power of IoT devices and demonstrates the potential for integrating multiple sensors into a cohesive system for data collection and analysis.
+
+RESTful APIs are widely used in web and mobile applications as they provide a standardized approach to data exchange and integration between different systems. They are also scalable, flexible, and easy to maintain, making them a popular choice for building modern web applications.
+
+## Future scope
+
+Implementation of ESP8266-DHT11 Sensor Network: Real-time Data Collection and Local Storage using RESTful API can be further integrated with the cloud to create and train AI/ML models from the data collected to predict the future ambient temperature and humidity of an environmental setting. More nodes can be added with a status table reporting the activity of each node and their current status. Nodes can be made to run in a sleep wake cycle to ensure longer battery life and minimize unnecessary data collection. Due to the dynamic nature of ESP8266 various other sensors can be integrated to collect data regarding various parameters and make actionable insights for the application. HTTP get request can be used to command ESP8266 to actuate certain tasks. 
 
 ## Contributions
 
 Contributions, issues, and feature requests are welcome. If you find any issues or want to improve the project, please feel free to submit a pull request or open an issue.
 
-## Acknowledgments
-
-We would like to thank the UCI Machine Learning Repository for providing the Iris dataset, making it accessible for educational purposes.
 
 
 
