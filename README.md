@@ -1,4 +1,4 @@
-# ESP8266-DHT11-Sensor-Network-Real-time-Data-Collection-and-Local-Storage-using-RESTful-API
+# ESP8266 DHT11 Sensor Network Real Time Data Collection and Local Storage using RESTful API
 **Project Objective:** To engineer a robust IoT solution for real-time environmental monitoring and data-driven decision-making to improve efficiency & resource management.
 ## Overview
 This project involved setting up a network of ESP8266 micro-controllers combined with DHT11 sensors to implement a local wireless network and custom RESTful API, to store the generated data locally in JSON format to be trained upon by AI/ML models.
