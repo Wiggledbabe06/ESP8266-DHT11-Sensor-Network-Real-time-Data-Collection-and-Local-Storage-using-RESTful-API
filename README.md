@@ -76,7 +76,7 @@ RESTful API architecture will be used by the central server to receive data from
 
 4. Add the necessary libraries and upload code_for_ESP8266.ino to ESP8266 using Arduino IDE.
    **Remember to edit the Wifi SSID to your local network authentication key**
-6. Add the following table_definition_SQLite.sql in SQLite.
+6. Add the following `table_definition_SQLite.sql` in SQLite.
 <p align="center">
 
 <img src ="https://github.com/Wiggledbabe06/ESP8266-DHT11-Sensor-Network-Real-time-Data-Collection-and-Local-Storage-using-RESTful-API/assets/98098708/650c3b80-3d6e-4821-a074-98fcc5ca8627" width="500" height = "300">
